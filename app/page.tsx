@@ -137,7 +137,7 @@ const [expandedItemFeedback, setExpandedItemFeedback] = useState([])
   })
 }
 
-  const customerName = "Alexis"
+  const customerName = "Rahul"
 
   // Carousel refs and APIs
   const [promoApi, setPromoApi] = useState<CarouselApi>()
@@ -796,19 +796,15 @@ Powered by RDEP
 
           {/* Top Section */}
 <div className="bg-white rounded-2xl shadow-md border border-gray-200 mt-4 mx-3 overflow-hidden">
-
   {/* Header */}
-  <div className="bg-[#E1251B] px-5 pt-5 pb-6 text-white">
-
+  <div className="bg-[#006491] px-5 pt-5 pb-6 text-white">
     <div className="flex items-start justify-between">
-
       {/* Logo */}
       <img
-        src="https://images.ctfassets.net/quhz534suzyl/2rUTIjKRBjBY71k8KDNy2O/61486e3c5c2ccd8dbf5664fc7127bb9d/logo_grilld_round_tagline_321da6fff8.svg"
-        alt="Grill'd"
-        className="h-28 w-auto"
+        src="https://upload.wikimedia.org/wikipedia/commons/7/74/Dominos_pizza_logo.svg"
+        alt="Domino's Pizza"
+        className="h-20 w-auto"
       />
-
       {/* QR */}
       <div className="bg-white rounded-xl p-2 shadow-sm">
         <Image
@@ -818,75 +814,54 @@ Powered by RDEP
           height={52}
         />
       </div>
-
     </div>
-
-
     {/* Greeting */}
     <div className="mt-3">
       <div className="text-lg font-semibold">
         Thanks {customerName}
       </div>
-
       <div className="text-sm opacity-90">
-        Your Grill'd order is complete
+        Your Domino's order is confirmed
       </div>
     </div>
-
-
     {/* Amount */}
-    <div className="mt-4 bg-[#B51E17] rounded-xl p-4 flex justify-between items-center">
-
+    <div className="mt-4 bg-[#E31837] rounded-xl p-4 flex justify-between items-center">
       <div>
         <div className="text-xs opacity-80">
           Amount Paid
         </div>
-
         <div className="text-3xl font-semibold">
-          ${currentReceipt.total.toFixed(2)}
+          ₹{currentReceipt.total.toFixed(2)}
         </div>
       </div>
-
       <User2 className="h-7 w-7 text-white/80" />
-
     </div>
-
   </div>
-
-
   {/* Receipt Metadata */}
   <div className="p-4 bg-white">
-
     <div className="bg-gray-50 rounded-xl border border-gray-200 p-3 space-y-2">
-
       {/* Receipt ID */}
       <div className="flex justify-between items-center">
         <span className="text-xs text-gray-500">
-          Receipt ID:
+          Order ID:
         </span>
-
         <span className="text-sm font-semibold tracking-wide text-right">
           {currentReceipt.id}
         </span>
       </div>
-
       {/* Date & Time */}
       <div className="flex justify-between items-center">
         <span className="text-xs text-gray-500">
-          Date & Time:
+          Order Time:
         </span>
-
         <span className="text-sm font-semibold text-right">
           {currentReceipt.date} {currentReceipt.time}
         </span>
       </div>
-
     </div>
-
   </div>
-
 </div>
-
+          
           {/* Purchase Details */}
 <div className="bg-white rounded-2xl shadow-md border border-gray-200 mt-4 mx-3 p-4">
 
