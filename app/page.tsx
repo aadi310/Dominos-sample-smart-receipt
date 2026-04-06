@@ -1099,7 +1099,7 @@ Powered by RDEP
   {/* Banner */}
   <div className="relative">
     <img
-      src="https://cache.dominos.co.in/prod-olo-api/images/dominos-rewards-banner.jpg"
+      src="https://www.dominos.co.in/blog/wp-content/uploads/2022/07/dominos-cheesy-rewards-loyalty-program.jpg"
       alt="Domino's Rewards"
       className="w-full h-36 object-cover"
     />
@@ -1222,94 +1222,112 @@ Powered by RDEP
     }}
   >
     <CarouselContent>
+
       {/* Banner 1 */}
       <CarouselItem>
-        <div className="relative w-full aspect-[2/1] bg-[#F7F3ED]">
+        <div className="relative w-full aspect-[2/1] bg-[#F4F8FB] flex items-center justify-center">
+
           <a
-            href="https://grilld.com.au/oscar-piastri"
+            href="https://www.dominos.co.in/"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-full h-full relative"
           >
             <Image
-              src="https://images.ctfassets.net/quhz534suzyl/47hsNSwMQkzQ8S7EdQN2kN/f983410fb63f9df6cbd13d4c6656980e/Oscar_Piastri_2026_Chicken_Burger_Mobile_Hero__1_.png?w=2400"
-              alt="Oscar Piastri Burger"
+              src="https://api.dominos.co.in/prod-olo-api/images/Home_Paytm_20210519.jpg"
+              alt="Domino's Paytm Offer"
               fill
               className="object-contain"
               priority
             />
           </a>
+
           {/* CTA */}
           <a
-            href="https://grilld.com.au/oscar-piastri"
+            href="https://www.dominos.co.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute bottom-4 right-4"
           >
-            <button className="bg-[#E1251B] text-white text-xs font-medium px-4 py-2 rounded-lg shadow-sm">
-              Shop Now
+            <button className="bg-[#E31837] text-white text-xs font-medium px-4 py-2 rounded-lg shadow-sm">
+              Order Now
             </button>
           </a>
+
         </div>
       </CarouselItem>
+
 
       {/* Banner 2 */}
       <CarouselItem>
-        <div className="relative w-full aspect-[2/1] bg-[#F7F3ED]">
+        <div className="relative w-full aspect-[2/1] bg-[#F4F8FB] flex items-center justify-center">
+
           <a
-            href="https://grilld.com.au/mad-bunday"
+            href="https://www.dominos.co.in/"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-full h-full relative"
           >
             <Image
-              src="https://images.ctfassets.net/quhz534suzyl/5EBPdiHE0tLdvkboYZIlWt/a756e8136fd9939ad54d5ebcde2c9153/madbunday-homepage-promotion-desktop-v3__1_.png?w=1984"
-              alt="Mad Bunday"
+              src="https://api.dominos.co.in/prod-olo-api/images/amazon_home_20210412.jpg"
+              alt="Domino's Amazon Offer"
               fill
               className="object-contain"
             />
           </a>
+
           {/* CTA */}
           <a
-            href="https://grilld.com.au/mad-bunday"
+            href="https://www.dominos.co.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute bottom-4 right-4"
           >
-            <button className="bg-[#E1251B] text-white text-xs font-medium px-4 py-2 rounded-lg shadow-sm">
-              Learn More
+            <button className="bg-[#E31837] text-white text-xs font-medium px-4 py-2 rounded-lg shadow-sm">
+              Order Now
             </button>
           </a>
+
         </div>
       </CarouselItem>
 
+
       {/* Banner 3 */}
       <CarouselItem>
-        <div className="relative w-full aspect-[2/1] bg-[#F7F3ED]">
+        <div className="relative w-full aspect-[2/1] bg-[#F4F8FB] flex items-center justify-center">
+
           <a
-            href="https://grilld.com.au/sustainability"
+            href="https://www.dominos.co.in/"
             target="_blank"
             rel="noopener noreferrer"
+            className="w-full h-full relative"
           >
             <Image
-              src="https://images.ctfassets.net/quhz534suzyl/5vs1D2nj8Nwv6Pmo3tLuh6/8fd96e580332f49677d016bd471c9535/Local_Matters_homepage.webp?w=2400"
-              alt="Grill'd Local"
+              src="https://api.dominos.co.in/prod-olo-api/images/Home_Freecharge_20210405.jpg"
+              alt="Domino's Freecharge Offer"
               fill
               className="object-contain"
             />
           </a>
+
           {/* CTA */}
           <a
-            href="https://grilld.com.au/local-matters"
+            href="https://www.dominos.co.in/"
             target="_blank"
             rel="noopener noreferrer"
             className="absolute bottom-4 right-4"
           >
-            <button className="bg-[#E1251B] text-white text-xs font-medium px-4 py-2 rounded-lg shadow-sm">
-              Learn More
+            <button className="bg-[#E31837] text-white text-xs font-medium px-4 py-2 rounded-lg shadow-sm">
+              Order Now
             </button>
           </a>
+
         </div>
       </CarouselItem>
+
     </CarouselContent>
+
+
     {/* Pagination Dots */}
     <div className="absolute bottom-3 left-0 right-0 flex justify-center gap-1.5 z-10">
       {[0, 1, 2].map((index) => (
@@ -1318,16 +1336,17 @@ Powered by RDEP
           onClick={() => promoApi?.scrollTo(index)}
           className={`h-1.5 rounded-full transition-all duration-300 ${
             currentSlide === index
-              ? "w-5 bg-[#E1251B]"
+              ? "w-5 bg-[#E31837]"
               : "w-1.5 bg-white/70"
           }`}
         />
       ))}
     </div>
+
   </Carousel>
 </div>
 
-          {/* Join Relish Rewards Section */}
+          {/* Join Domino's Rewards Section */}
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
   {profileUpdateSuccess ? (
@@ -1341,11 +1360,11 @@ Powered by RDEP
       </div>
 
       <div className="text-sm font-semibold text-gray-900 mb-1">
-        Welcome to Relish!
+        Welcome to Domino's Rewards!
       </div>
 
       <div className="text-xs text-green-700 font-medium">
-        Points from this order have been added to your account.
+        Your profile has been saved and rewards are now active.
       </div>
 
     </div>
@@ -1358,23 +1377,23 @@ Powered by RDEP
 
         <div className="flex items-center">
 
-          <div className="bg-[#E1251B] p-2 rounded-lg mr-3">
+          <div className="bg-[#E31837] p-2 rounded-lg mr-3">
             <User2 className="h-4 w-4 text-white" />
           </div>
 
           <div>
             <div className="text-sm font-semibold text-gray-900">
-              Join Relish Rewards
+              Join Domino's Rewards
             </div>
             <div className="text-xs text-gray-500">
-              Earn points every time you Grill'd
+              Save your profile to unlock offers and faster checkout
             </div>
           </div>
 
         </div>
 
-        <span className="text-[10px] font-semibold bg-[#E1251B] text-white px-2 py-0.5 rounded-full">
-          +100 pts
+        <span className="text-[10px] font-semibold bg-[#E31837] text-white px-2 py-0.5 rounded-full">
+          Welcome Offer
         </span>
 
       </div>
@@ -1393,7 +1412,7 @@ Powered by RDEP
             placeholder="Your Name"
             value={profile.name}
             onChange={(e) => setProfile((prev) => ({ ...prev, name: e.target.value }))}
-            className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#E1251B]"
+            className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#E31837]"
           />
         </div>
 
@@ -1408,7 +1427,7 @@ Powered by RDEP
             placeholder="name@example.com"
             value={profile.email}
             onChange={(e) => setProfile((prev) => ({ ...prev, email: e.target.value }))}
-            className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#E1251B]"
+            className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#E31837]"
           />
         </div>
 
@@ -1420,10 +1439,10 @@ Powered by RDEP
 
           <input
             type="tel"
-            placeholder="+61 ..."
+            placeholder="+91 ..."
             value={profile.mobile}
             onChange={(e) => setProfile((prev) => ({ ...prev, mobile: e.target.value }))}
-            className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#E1251B]"
+            className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#E31837]"
           />
         </div>
 
@@ -1432,23 +1451,23 @@ Powered by RDEP
 
       {/* CTA */}
       <button
-        className="w-full mt-4 bg-[#E1251B] text-white h-11 text-xs font-semibold rounded-xl shadow-md transition active:scale-[0.98]"
+        className="w-full mt-4 bg-[#006491] text-white h-11 text-xs font-semibold rounded-xl shadow-md transition active:scale-[0.98]"
         onClick={handleProfileUpdate}
       >
-        Join Relish & Earn Points
+        Save Profile & Activate Rewards
       </button>
 
 
       {/* Helper text */}
       <div className="text-[10px] text-gray-400 text-center mt-2">
-        By joining, you agree to receive Relish rewards updates.
+        By joining, you agree to receive Domino's offers and order updates.
       </div>
 
     </>
   )}
 
 </div>
-
+          
       {/* Feedback Section */}
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
@@ -1467,7 +1486,7 @@ Powered by RDEP
       </div>
 
       <div className="text-xs text-gray-500">
-        Your input helps us improve every Grill'd experience.
+        Your input helps us improve every Domino's experience.
       </div>
 
     </div>
@@ -1481,54 +1500,51 @@ Powered by RDEP
 
         <div className="flex items-center">
 
-          <div className="bg-[#E1251B] p-2 rounded-lg mr-3">
+          <div className="bg-[#E31837] p-2 rounded-lg mr-3">
             <svg
+              xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               className="w-4 h-4 text-white"
               fill="currentColor"
             >
-              <path d="M3 11h18M4 14h16M5 17h14M6 8c1-3 11-3 12 0" stroke="white" strokeWidth="1.5"/>
+              <path d="M11.5 2C7 2 3.5 5.3 3.5 9.5c0 2.4 1.2 4.4 3.1 5.7L6 22l5.1-2.6c.5.1 1 .1 1.5.1 4.5 0 8-3.3 8-7.5S16 2 11.5 2z"/>
             </svg>
           </div>
 
           <h3 className="text-base font-semibold text-gray-900">
-            Rate Your Experience
+            Rate Your Pizza Experience
           </h3>
 
         </div>
 
-        <span className="text-[10px] font-semibold text-[#E1251B] bg-red-50 px-2 py-1 rounded">
+        <span className="text-[10px] font-semibold text-[#E31837] bg-red-50 px-2 py-1 rounded">
           QUICK FEEDBACK
         </span>
 
       </div>
 
 
-      {/* Burger Rating */}
+      {/* Pizza Rating */}
       <div className="flex justify-center gap-3 py-1">
 
-        {[1,2,3,4,5].map((burger) => (
+        {[1,2,3,4,5].map((pizza) => (
 
           <button
-            key={burger}
+            key={pizza}
             onClick={() => {
-              setRating(burger)
+              setRating(pizza)
               setSelectedTags([])
             }}
             className="transition-transform active:scale-90"
           >
 
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              className={`h-9 w-9 ${
-                burger <= rating
-                  ? "fill-[#E1251B] text-[#E1251B]"
-                  : "text-gray-200"
+            <span
+              className={`text-3xl ${
+                pizza <= rating ? "opacity-100" : "opacity-30"
               }`}
             >
-              <path d="M3 11h18M4 14h16M5 17h14M6 8c1-3 11-3 12 0" stroke="currentColor" strokeWidth="1.5" fill="currentColor"/>
-            </svg>
+              🍕
+            </span>
 
           </button>
 
@@ -1543,27 +1559,27 @@ Powered by RDEP
         <div className="space-y-2">
 
           <div className="text-[11px] font-semibold text-gray-500 uppercase tracking-wide">
-            Tell us more about your visit
+            Tell us more about your order
           </div>
 
           <div className="flex flex-wrap gap-2">
 
             {(rating >= 4
               ? [
-                  "Fresh ingredients",
                   "Great taste",
-                  "Friendly staff",
-                  "Fast service",
+                  "Hot & fresh pizza",
+                  "Fast delivery",
                   "Good value",
-                  "Clean restaurant",
+                  "Well packaged",
+                  "Accurate order",
                 ]
               : [
-                  "Food quality",
-                  "Order accuracy",
-                  "Long wait time",
-                  "Service experience",
-                  "Restaurant cleanliness",
-                  "Value for money",
+                  "Pizza was cold",
+                  "Long delivery time",
+                  "Wrong order",
+                  "Poor taste",
+                  "Packaging issue",
+                  "Not good value",
                 ]
             ).map((item) => (
 
@@ -1578,7 +1594,7 @@ Powered by RDEP
                 }
                 className={`text-[11px] px-3 py-1.5 rounded-full border transition ${
                   selectedTags.includes(item)
-                    ? "bg-[#E1251B] text-white border-[#E1251B]"
+                    ? "bg-[#E31837] text-white border-[#E31837]"
                     : "border-gray-200 bg-gray-50"
                 }`}
               >
@@ -1603,8 +1619,8 @@ Powered by RDEP
 
         <textarea
           rows={3}
-          placeholder="Share any additional feedback"
-          className="w-full p-3 text-xs border border-gray-200 rounded-xl focus:ring-1 focus:ring-[#E1251B] focus:border-[#E1251B] outline-none resize-none"
+          placeholder="Tell us about your Domino's order"
+          className="w-full p-3 text-xs border border-gray-200 rounded-xl focus:ring-1 focus:ring-[#E31837] focus:border-[#E31837] outline-none resize-none"
           value={feedbackText}
           onChange={(e) => setFeedbackText(e.target.value)}
         />
@@ -1614,7 +1630,7 @@ Powered by RDEP
 
       {/* Submit Button */}
       <button
-        className="w-full bg-[#E1251B] text-white h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]"
+        className="w-full bg-[#006491] text-white h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]"
         onClick={handleFeedbackSubmit}
         disabled={!rating}
       >
@@ -1623,7 +1639,7 @@ Powered by RDEP
 
 
       <p className="text-[10px] text-center text-gray-400">
-        Your feedback helps us improve every visit.
+        Your feedback helps Domino's improve every order.
       </p>
 
     </div>
@@ -1632,7 +1648,6 @@ Powered by RDEP
 
 </div>
 
-          {/* Just For You - Coupon Section */}
 {/* Just For You - Coupon Section */}
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
