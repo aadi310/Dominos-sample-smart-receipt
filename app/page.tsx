@@ -196,166 +196,174 @@ const [expandedItemFeedback, setExpandedItemFeedback] = useState([])
 
  const receipts = {
   current: {
-    id: "GHVFWQNN7JRMVJH4",
+    id: "DMBLR7891XQ12",
     date: "05-03-2026",
     time: "19:22:18",
-    associate: "Liam O’Connor",
-    branch: "Flinders Lane",
+    associate: "Rahul Kumar",
+    branch: "Brigade Road",
     items: [
       {
         id: 0,
-        name: "Sweet Chilli Chicken",
-        size: "Regular Burger",
-        description: "Grilled chicken breast, sweet chilli sauce, lettuce, tomato & herb mayo",
-        price: 14.50,
+        name: "Farmhouse Pizza",
+        size: "Medium",
+        description:
+          "Loaded with capsicum, onion, tomato, grilled mushroom & mozzarella cheese",
+        price: 399,
         quantity: 1,
-        category: "Chicken Burgers",
+        category: "Veg Pizza",
         taxApplicable: true,
-        baseAmount: 13.18,
-        tax: 1.32,
-        itemCode: "B101",
-        type: "Chicken",
+        baseAmount: 380,
+        tax: 19,
+        itemCode: "P101",
+        type: "Veg",
       },
       {
         id: 1,
-        name: "Famous Grill'd Chips",
-        size: "Mini",
-        description: "Lightly salted crispy chips served with tomato relish",
-        price: 6.90,
+        name: "Garlic Breadsticks",
+        size: "Regular",
+        description:
+          "Freshly baked breadsticks with garlic seasoning and cheese dip",
+        price: 149,
         quantity: 1,
-        category: "Chips",
+        category: "Sides",
         taxApplicable: true,
-        baseAmount: 6.27,
-        tax: 0.63,
+        baseAmount: 142,
+        tax: 7,
         itemCode: "S210",
       },
       {
         id: 2,
-        name: "Salted Caramel",
-        size: "Regular Shake",
-        description: "Creamy milkshake blended with salted caramel",
-        price: 9.00,
+        name: "Choco Lava Cake",
+        size: "Single",
+        description:
+          "Warm chocolate cake with molten chocolate filling inside",
+        price: 109,
         quantity: 1,
-        category: "Shakes",
+        category: "Desserts",
         taxApplicable: true,
-        baseAmount: 8.18,
-        tax: 0.82,
+        baseAmount: 104,
+        tax: 5,
         itemCode: "D330",
       },
     ],
-    subtotal: 27.64,
-    tax: 2.76,
-    total: 30.40,
+    subtotal: 626,
+    tax: 31,
+    total: 657,
   },
 
   hist1: {
-    id: "GHVFWQNN7JRMVJS9",
+    id: "DMBLR6719YT92",
     date: "20-01-2026",
     time: "14:22:18",
-    associate: "Emily Harper",
-    branch: "Southbank",
+    associate: "Anita Sharma",
+    branch: "Indiranagar",
     items: [
       {
         id: 0,
-        name: "Bonfire BBQ",
-        size: "Regular Burger",
-        description: "Grass-fed beef, bacon, cheddar, lettuce, tomato & smokey BBQ sauce",
-        price: 18.90,
+        name: "Chicken Dominator",
+        size: "Medium",
+        description:
+          "Loaded with double pepper barbecue chicken, peri-peri chicken & grilled chicken rashers",
+        price: 549,
         quantity: 1,
-        category: "Specialty Wagyu Burgers",
+        category: "Non-Veg Pizza",
         taxApplicable: true,
-        baseAmount: 17.18,
-        tax: 1.72,
-        itemCode: "B120",
-        type: "Beef",
-      },
-      {
-        id: 1,
-        name: "Sliders Pair",
-        size: "2 Mini Burgers",
-        description: "Two mini burgers with grilled beef patties, cheese & house relish",
-        price: 15.50,
-        quantity: 1,
-        category: "Sliders",
-        taxApplicable: true,
-        baseAmount: 14.09,
-        tax: 1.41,
-        itemCode: "B210",
-      },
-      {
-        id: 2,
-        name: "Zucchini Chips",
-        size: "Mini",
-        description: "Crispy zucchini chips served with herb mayo",
-        price: 4.90,
-        quantity: 1,
-        category: "Chips",
-        taxApplicable: true,
-        baseAmount: 4.45,
-        tax: 0.45,
-        itemCode: "S215",
-      },
-    ],
-    subtotal: 33.72,
-    tax: 3.38,
-    total: 37.10,
-  },
-
-  hist2: {
-    id: "GHVFWQNN7JRMVJV7",
-    date: "15-12-2025",
-    time: "12:45:33",
-    associate: "Noah Williams",
-    branch: "Carlton",
-    items: [
-      {
-        id: 0,
-        name: "Hula Hen",
-        size: "Regular Burger",
-        description: "Grilled chicken breast, pineapple, cheese, lettuce & mayo",
-        price: 17.50,
-        quantity: 1,
-        category: "Healthy Chicken Burgers",
-        taxApplicable: true,
-        baseAmount: 15.91,
-        tax: 1.59,
-        itemCode: "B140",
+        baseAmount: 523,
+        tax: 26,
+        itemCode: "P210",
         type: "Chicken",
       },
       {
         id: 1,
-        name: "Chipotle",
-        size: "Regular Burger",
-        description: "Grass-fed beef, cheese, lettuce, tomato & smoky chipotle mayo",
-        price: 16.90,
+        name: "Stuffed Garlic Bread",
+        size: "Regular",
+        description:
+          "Freshly baked bread stuffed with mozzarella cheese and jalapenos",
+        price: 169,
         quantity: 1,
-        category: "Healthy Chicken Burgers",
+        category: "Sides",
         taxApplicable: true,
-        baseAmount: 15.36,
-        tax: 1.54,
-        itemCode: "B150",
-        type: "Beef",
+        baseAmount: 161,
+        tax: 8,
+        itemCode: "S230",
       },
       {
         id: 2,
-        name: "Mango Pash",
-        size: "Regular Drink",
-        description: "Refreshing mango and passionfruit house soda",
-        price: 9.00,
+        name: "Pepsi",
+        size: "500ml",
+        description: "Chilled Pepsi soft drink",
+        price: 60,
         quantity: 1,
-        category: "Drinks",
+        category: "Beverages",
         taxApplicable: true,
-        baseAmount: 8.18,
-        tax: 0.82,
+        baseAmount: 57,
+        tax: 3,
+        itemCode: "B310",
+      },
+    ],
+    subtotal: 741,
+    tax: 37,
+    total: 778,
+  },
+
+  hist2: {
+    id: "DMBLR5590LP33",
+    date: "15-12-2025",
+    time: "12:45:33",
+    associate: "Sanjay Reddy",
+    branch: "Koramangala",
+    items: [
+      {
+        id: 0,
+        name: "Veg Extravaganza",
+        size: "Medium",
+        description:
+          "Black olives, capsicum, onion, grilled mushroom, corn, tomato & jalapeno",
+        price: 429,
+        quantity: 1,
+        category: "Veg Pizza",
+        taxApplicable: true,
+        baseAmount: 409,
+        tax: 20,
+        itemCode: "P140",
+        type: "Veg",
+      },
+      {
+        id: 1,
+        name: "Taco Mexicana",
+        size: "Regular",
+        description:
+          "Mexican herbs with jalapenos, onions, tomatoes and taco seasoning",
+        price: 279,
+        quantity: 1,
+        category: "Veg Pizza",
+        taxApplicable: true,
+        baseAmount: 266,
+        tax: 13,
+        itemCode: "P150",
+        type: "Veg",
+      },
+      {
+        id: 2,
+        name: "Butterscotch Mousse Cake",
+        size: "Single",
+        description:
+          "Soft butterscotch flavored mousse dessert with caramel topping",
+        price: 119,
+        quantity: 1,
+        category: "Desserts",
+        taxApplicable: true,
+        baseAmount: 113,
+        tax: 6,
         itemCode: "D310",
       },
     ],
-    subtotal: 39.45,
-    tax: 3.95,
-    total: 43.40,
+    subtotal: 788,
+    tax: 39,
+    total: 827,
   },
 };
-
+  
   const currentReceipt = receipts[currentReceiptId]
 
   const totalSlides = 2
@@ -364,11 +372,11 @@ const [expandedItemFeedback, setExpandedItemFeedback] = useState([])
     {
       id: "current",
       date: "05-03-2026",
-      branch: "Grill'd",
-      amount: currentReceiptId === "current" ? receipts.current.subtotal + receipts.current.tax : 30.40,
+      branch: "Domino's",
+      amount: currentReceiptId === "current" ? receipts.current.subtotal + receipts.current.tax : 657.00,
     },
-    { id: "hist1", date: "20-01-2026", branch: "Grill'd", amount: 37.10 },
-    { id: "hist2", date: "15-12-2025", branch: "Grill'd", amount: 43.40 },
+    { id: "hist1", date: "20-01-2026", branch: "Domino's", amount: 778.00 },
+    { id: "hist2", date: "15-12-2025", branch: "Domino's", amount: 827.00 },
   ]
 
   const toggleProductExpansion = (productId: number) => {
@@ -461,7 +469,7 @@ const [expandedItemFeedback, setExpandedItemFeedback] = useState([])
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Grill'd Digital Receipt</title>
+<title>Domino's Digital Receipt</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
@@ -491,12 +499,12 @@ justify-content:space-between;
 align-items:flex-start;
 margin-bottom:28px;
 padding-bottom:16px;
-border-bottom:3px solid #E1251B;
+border-bottom:3px solid #006491;
 }
 
 .company-info h1{
 font-size:30px;
-color:#E1251B;
+color:#006491;
 font-weight:700;
 margin-bottom:4px;
 }
@@ -518,22 +526,22 @@ margin-bottom:4px;
 
 .bill-id{
 font-weight:600;
-color:#E1251B;
+color:#E31837;
 }
 
 /* Guest section */
 
 .customer-section{
-background:#F7F3ED;
+background:#F4F8FB;
 padding:14px;
-border-left:4px solid #E1251B;
+border-left:4px solid #006491;
 border-radius:0 8px 8px 0;
 margin-bottom:22px;
 }
 
 .customer-section h3{
 font-size:15px;
-color:#E1251B;
+color:#006491;
 font-weight:600;
 margin-bottom:2px;
 }
@@ -552,7 +560,7 @@ margin-bottom:24px;
 }
 
 .items-table th{
-background:#E1251B;
+background:#006491;
 color:white;
 padding:10px 8px;
 text-align:left;
@@ -580,7 +588,7 @@ color:#666;
 
 .item-specs{
 font-size:10px;
-color:#E1251B;
+color:#E31837;
 margin-top:4px;
 font-weight:600;
 }
@@ -610,8 +618,8 @@ font-size:13px;
 .net-total{
 font-size:18px;
 font-weight:700;
-color:#E1251B;
-border-top:2px solid #E1251B;
+color:#006491;
+border-top:2px solid #006491;
 padding-top:6px;
 margin-top:6px;
 }
@@ -628,7 +636,7 @@ color:#555;
 }
 
 .footer strong{
-color:#E1251B;
+color:#E31837;
 }
 
 .powered{
@@ -654,26 +662,26 @@ padding:0;
 <div class="receipt-header">
 
 <div class="company-info">
-<h1>Grill'd</h1>
+<h1>Domino's</h1>
 <p>
-<strong>Grill'd Healthy Burgers</strong><br>
-Level 2, 2 Russell Street<br>
-Melbourne VIC 3000, Australia<br>
-Phone: +61 3 9975 5975
+<strong>Domino's Pizza India</strong><br>
+Brigade Road<br>
+Bengaluru, Karnataka 560001<br>
+Phone: 1800-208-1234
 </p>
 </div>
 
 <div class="bill-info">
-<div><strong>Receipt ID:</strong> <span class="bill-id">GRILLD-FLINDERS-98347219</span></div>
+<div><strong>Order ID:</strong> <span class="bill-id">DMBLR7891XQ12</span></div>
 <div><strong>Date:</strong> 05-03-2026 19:22</div>
-<div><strong>Team Member:</strong> Liam O’Connor</div>
+<div><strong>Store Associate:</strong> Rahul Kumar</div>
 </div>
 
 </div>
 
 <div class="customer-section">
-<h3>Guest: ${customerName}</h3>
-<p>Thanks for enjoying healthy burgers with us!</p>
+<h3>Customer: ${customerName}</h3>
+<p>Thank you for ordering with Domino's!</p>
 </div>
 
 <table class="items-table">
@@ -692,38 +700,38 @@ Phone: +61 3 9975 5975
 
 <tr>
 <td>
-<div class="item-name">Simon Says Burger</div>
-<div class="item-desc">Grass-fed beef, cheese, lettuce, tomato, pickles & herb mayo</div>
-<div class="item-specs">Type: Beef Burger</div>
+<div class="item-name">Farmhouse Pizza</div>
+<div class="item-desc">Capsicum, onion, tomato, grilled mushroom & mozzarella cheese</div>
+<div class="item-specs">Type: Veg Pizza</div>
 </td>
 <td>1</td>
-<td>Regular</td>
-<td>$14.90</td>
-<td><strong>$14.90</strong></td>
+<td>Medium</td>
+<td>₹399</td>
+<td><strong>₹399</strong></td>
 </tr>
 
 <tr>
 <td>
-<div class="item-name">Sweet Potato Fries</div>
-<div class="item-desc">Crispy sweet potato fries served with chipotle mayo</div>
+<div class="item-name">Garlic Breadsticks</div>
+<div class="item-desc">Freshly baked breadsticks with garlic seasoning & cheese dip</div>
 <div class="item-specs">Side</div>
 </td>
 <td>1</td>
 <td>Regular</td>
-<td>$6.90</td>
-<td><strong>$6.90</strong></td>
+<td>₹149</td>
+<td><strong>₹149</strong></td>
 </tr>
 
 <tr>
 <td>
-<div class="item-name">Blood Orange Soda</div>
-<div class="item-desc">House soda with natural blood orange flavour</div>
-<div class="item-specs">Drink</div>
+<div class="item-name">Choco Lava Cake</div>
+<div class="item-desc">Warm chocolate cake with molten chocolate filling</div>
+<div class="item-specs">Dessert</div>
 </td>
 <td>1</td>
-<td>Regular</td>
-<td>$4.50</td>
-<td><strong>$4.50</strong></td>
+<td>Single</td>
+<td>₹109</td>
+<td><strong>₹109</strong></td>
 </tr>
 
 </tbody>
@@ -736,17 +744,17 @@ Items Ordered: 3
 </div>
 
 <div class="totals-table">
-<div>Subtotal: <strong>$23.91</strong></div>
-<div>GST (10%): <strong>$2.39</strong></div>
-<div class="net-total">Total: <strong>$26.30</strong></div>
+<div>Subtotal: <strong>₹626</strong></div>
+<div>GST (5%): <strong>₹31</strong></div>
+<div class="net-total">Total: <strong>₹657</strong></div>
 </div>
 
 </div>
 
 <div class="footer">
 
-<p><strong>Thanks for choosing Grill'd!</strong></p>
-<p>Follow us on Instagram @grilldburgers or visit grilld.com.au</p>
+<p><strong>Thanks for choosing Domino's!</strong></p>
+<p>Order again at www.dominos.co.in</p>
 
 <div class="powered">
 Powered by RDEP
@@ -1392,10 +1400,6 @@ Powered by RDEP
 
         </div>
 
-        <span className="text-[10px] font-semibold bg-[#E31837] text-white px-2 py-0.5 rounded-full">
-          Welcome Offer
-        </span>
-
       </div>
 
 
@@ -1516,10 +1520,6 @@ Powered by RDEP
           </h3>
 
         </div>
-
-        <span className="text-[10px] font-semibold text-[#E31837] bg-red-50 px-2 py-1 rounded">
-          QUICK FEEDBACK
-        </span>
 
       </div>
 
@@ -1666,10 +1666,6 @@ Powered by RDEP
 
     </div>
 
-    <span className="text-[10px] font-semibold text-[#E31837] bg-red-50 px-2 py-1 rounded">
-      COUPONS
-    </span>
-
   </div>
 
 
@@ -1789,7 +1785,7 @@ Powered by RDEP
       onClick={handleTransactionHistoryOpen}
       className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
     >
-      <History className="h-5 w-5 text-[#E31837] mb-1" />
+      <History className="h-5 w-5 text-[#006491] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
         Orders
       </span>
@@ -1801,7 +1797,7 @@ Powered by RDEP
       onClick={handleEmailReceipt}
       className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
     >
-      <Mail className="h-5 w-5 text-[#E31837] mb-1" />
+      <Mail className="h-5 w-5 text-[#006491] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
         Email
       </span>
@@ -1813,7 +1809,7 @@ Powered by RDEP
       onClick={handleDownloadReceipt}
       className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
     >
-      <Download className="h-5 w-5 text-[#E31837] mb-1" />
+      <Download className="h-5 w-5 text-[#006491] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
         Download
       </span>
@@ -1829,7 +1825,7 @@ Powered by RDEP
   {/* Header */}
   <div className="flex items-center mb-3">
 
-    <div className="bg-[#E31837] p-2 rounded-lg mr-3">
+    <div className="bg-[#006491] p-2 rounded-lg mr-3">
       <Send className="h-4 w-4 text-white" />
     </div>
 
@@ -1847,7 +1843,7 @@ Powered by RDEP
       onClick={handleWhatsApp}
       className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
     >
-      <MessageSquare className="h-5 w-5 text-[#E31837] mb-1" />
+      <MessageSquare className="h-5 w-5 text-[#006491] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
         Chat
       </span>
@@ -1859,7 +1855,7 @@ Powered by RDEP
       onClick={handleCall}
       className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
     >
-      <Phone className="h-5 w-5 text-[#E31837] mb-1" />
+      <Phone className="h-5 w-5 text-[#006491] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
         Call Store
       </span>
@@ -1947,7 +1943,7 @@ Powered by RDEP
       className="w-full flex items-center justify-center mb-2 hover:text-[#E31837] transition-colors"
     >
       <MapPin className="h-3 w-3 mr-1 text-[#E31837]" />
-      <span className="font-semibold text-[#E31837]">
+      <span className="font-semibold text-[#006491]">
         Domino's Brigade Road, Bengaluru {showStoreLocation ? "▲" : "▼"}
       </span>
     </button>
@@ -1963,7 +1959,7 @@ Powered by RDEP
           GSTIN: 29ABCDE1234F1Z5
         </p>
 
-        <p className="mt-1 text-[#E31837] font-semibold">
+        <p className="mt-1 text-[#006491] font-semibold">
           Store Manager: {currentReceipt.associate}
         </p>
       </div>
@@ -2169,7 +2165,7 @@ Powered by RDEP
           >
 
             <div className="bg-white border border-gray-200 p-2 rounded-lg mr-3">
-              <FileText className="h-4 w-4 text-[#E31837]" />
+              <FileText className="h-4 w-4 text-[#006491]" />
             </div>
 
             <div className="flex-grow text-left">
@@ -2184,7 +2180,7 @@ Powered by RDEP
 
             </div>
 
-            <div className="text-sm font-semibold text-[#E31837]">
+            <div className="text-sm font-semibold text-[#006491]">
               ₹{transaction.amount.toFixed(2)}
             </div>
 
