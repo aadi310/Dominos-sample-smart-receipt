@@ -460,7 +460,7 @@ const [expandedItemFeedback, setExpandedItemFeedback] = useState([])
   }
 
   const handleEmailReceipt = () => {
-    window.open(`mailto:?subject=Receipt from Grill'd Melbourne&body=Receipt ID: ${currentReceipt.id}`)
+    window.open(`mailto:?subject=Receipt from Domino's Bangalore&body=Receipt ID: ${currentReceipt.id}`)
   }
 
   const handleDownloadReceipt = () => {
@@ -770,7 +770,7 @@ Powered by RDEP
     const url = URL.createObjectURL(blob)
     const link = document.createElement("a")
     link.href = url
-    link.download = "Grilld_Receipt_SK251107001.html"
+    link.download = "Dominos_Receipt_SK251107001.html"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -1825,7 +1825,7 @@ Powered by RDEP
   {/* Header */}
   <div className="flex items-center mb-3">
 
-    <div className="bg-[#006491] p-2 rounded-lg mr-3">
+    <div className="bg-[#E31837] p-2 rounded-lg mr-3">
       <Send className="h-4 w-4 text-white" />
     </div>
 
@@ -1857,7 +1857,7 @@ Powered by RDEP
     >
       <Phone className="h-5 w-5 text-[#006491] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
-        Call Store
+        Call
       </span>
     </button>
 
@@ -1867,9 +1867,9 @@ Powered by RDEP
       onClick={handleEmail}
       className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
     >
-      <Mail className="h-5 w-5 text-[#E31837] mb-1" />
+      <Mail className="h-5 w-5 text-[#006491] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
-        Email Support
+        Email
       </span>
     </button>
 
