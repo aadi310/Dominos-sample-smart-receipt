@@ -1656,7 +1656,7 @@ Powered by RDEP
 
     <div className="flex items-center">
 
-      <div className="bg-[#E1251B] p-2 rounded-lg mr-3">
+      <div className="bg-[#E31837] p-2 rounded-lg mr-3">
         <Sparkles className="h-4 w-4 text-white" />
       </div>
 
@@ -1666,7 +1666,7 @@ Powered by RDEP
 
     </div>
 
-    <span className="text-[10px] font-semibold text-[#E1251B] bg-red-50 px-2 py-1 rounded">
+    <span className="text-[10px] font-semibold text-[#E31837] bg-red-50 px-2 py-1 rounded">
       COUPONS
     </span>
 
@@ -1685,23 +1685,23 @@ Powered by RDEP
 
     {/* Coupon 1 */}
     <button
-      onClick={() => copyCoupon("BURGER20")}
-      className="w-full bg-[#F7F3ED] border border-gray-200 rounded-xl p-3 text-left active:scale-[0.99]"
+      onClick={() => copyCoupon("GET30")}
+      className="w-full bg-[#F4F8FB] border border-[#DDEAF2] rounded-xl p-3 text-left active:scale-[0.99]"
     >
 
       <div className="flex items-center justify-between">
 
         <div>
           <h4 className="text-sm font-semibold text-gray-900">
-            20% Off Any Burger
+            ₹30 Off Your Next Pizza
           </h4>
 
           <p className="text-[11px] text-gray-500">
-            Use code <span className="font-bold text-[#E1251B]">BURGER20</span>
+            Use code <span className="font-bold text-[#E31837]">GET30</span>
           </p>
         </div>
 
-        <div className="text-xl">🍔</div>
+        <div className="text-xl">🍕</div>
 
       </div>
 
@@ -1710,23 +1710,23 @@ Powered by RDEP
 
     {/* Coupon 2 */}
     <button
-      onClick={() => copyCoupon("FREECHIPS")}
-      className="w-full bg-[#F7F3ED] border border-gray-200 rounded-xl p-3 text-left active:scale-[0.99]"
+      onClick={() => copyCoupon("CHEESE20")}
+      className="w-full bg-[#F4F8FB] border border-[#DDEAF2] rounded-xl p-3 text-left active:scale-[0.99]"
     >
 
       <div className="flex items-center justify-between">
 
         <div>
           <h4 className="text-sm font-semibold text-gray-900">
-            Free Chips with Burger
+            20% Off Cheese Burst Pizza
           </h4>
 
           <p className="text-[11px] text-gray-500">
-            Use code <span className="font-bold text-[#E1251B]">FREECHIPS</span>
+            Use code <span className="font-bold text-[#E31837]">CHEESE20</span>
           </p>
         </div>
 
-        <div className="text-xl">🍟</div>
+        <div className="text-xl">🧀</div>
 
       </div>
 
@@ -1735,23 +1735,23 @@ Powered by RDEP
 
     {/* Coupon 3 */}
     <button
-      onClick={() => copyCoupon("DELIVERYFREE")}
-      className="w-full bg-[#F7F3ED] border border-gray-200 rounded-xl p-3 text-left active:scale-[0.99]"
+      onClick={() => copyCoupon("FREEGB")}
+      className="w-full bg-[#F4F8FB] border border-[#DDEAF2] rounded-xl p-3 text-left active:scale-[0.99]"
     >
 
       <div className="flex items-center justify-between">
 
         <div>
           <h4 className="text-sm font-semibold text-gray-900">
-            Free Delivery
+            Free Garlic Bread
           </h4>
 
           <p className="text-[11px] text-gray-500">
-            Use code <span className="font-bold text-[#E1251B]">DELIVERYFREE</span>
+            Use code <span className="font-bold text-[#E31837]">FREEGB</span>
           </p>
         </div>
 
-        <div className="text-xl">🛵</div>
+        <div className="text-xl">🥖</div>
 
       </div>
 
@@ -1762,12 +1762,12 @@ Powered by RDEP
 
   {/* CTA */}
   <a
-    href="https://grilld.com.au/menu"
+    href="https://www.dominos.co.in/"
     target="_blank"
     rel="noopener noreferrer"
   >
-    <button className="w-full mt-4 bg-[#E1251B] text-white h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]">
-      Shop Grill'd
+    <button className="w-full mt-4 bg-[#006491] text-white h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]">
+      Order Domino's
     </button>
   </a>
 
@@ -1778,43 +1778,42 @@ Powered by RDEP
 
 </div>
 
-
-          {/* Receipt Actions */}
+         {/* Receipt Actions */}
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
   <div className="grid grid-cols-3 gap-3">
 
-    {/* History */}
+    {/* Order History */}
     <button
       ref={historyButtonRef}
       onClick={handleTransactionHistoryOpen}
       className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
     >
-      <History className="h-5 w-5 text-[#E1251B] mb-1" />
+      <History className="h-5 w-5 text-[#E31837] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
-        History
+        Orders
       </span>
     </button>
 
 
-    {/* Email */}
+    {/* Email Receipt */}
     <button
       onClick={handleEmailReceipt}
       className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
     >
-      <Mail className="h-5 w-5 text-[#E1251B] mb-1" />
+      <Mail className="h-5 w-5 text-[#E31837] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
         Email
       </span>
     </button>
 
 
-    {/* Download */}
+    {/* Download Receipt */}
     <button
       onClick={handleDownloadReceipt}
       className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
     >
-      <Download className="h-5 w-5 text-[#E1251B] mb-1" />
+      <Download className="h-5 w-5 text-[#E31837] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
         Download
       </span>
@@ -1824,18 +1823,18 @@ Powered by RDEP
 
 </div>
           
-        {/* Need Help Section */}
+       {/* Need Help Section */}
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
   {/* Header */}
   <div className="flex items-center mb-3">
 
-    <div className="bg-[#E1251B] p-2 rounded-lg mr-3">
+    <div className="bg-[#E31837] p-2 rounded-lg mr-3">
       <Send className="h-4 w-4 text-white" />
     </div>
 
     <h3 className="text-sm font-semibold text-gray-900">
-      Need Help?
+      Domino's Support
     </h3>
 
   </div>
@@ -1848,7 +1847,7 @@ Powered by RDEP
       onClick={handleWhatsApp}
       className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
     >
-      <MessageSquare className="h-5 w-5 text-[#E1251B] mb-1" />
+      <MessageSquare className="h-5 w-5 text-[#E31837] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
         Chat
       </span>
@@ -1860,9 +1859,9 @@ Powered by RDEP
       onClick={handleCall}
       className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
     >
-      <Phone className="h-5 w-5 text-[#E1251B] mb-1" />
+      <Phone className="h-5 w-5 text-[#E31837] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
-        Call
+        Call Store
       </span>
     </button>
 
@@ -1872,9 +1871,9 @@ Powered by RDEP
       onClick={handleEmail}
       className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
     >
-      <Mail className="h-5 w-5 text-[#E1251B] mb-1" />
+      <Mail className="h-5 w-5 text-[#E31837] mb-1" />
       <span className="text-[11px] font-medium text-gray-700">
-        Email
+        Email Support
       </span>
     </button>
 
@@ -1888,7 +1887,7 @@ Powered by RDEP
   {/* Header */}
   <div className="flex items-center mb-4">
 
-    <div className="bg-[#E1251B] p-2 rounded-lg mr-3">
+    <div className="bg-[#E31837] p-2 rounded-lg mr-3">
       <Share2 className="h-4 w-4 text-white" />
     </div>
 
@@ -1904,7 +1903,7 @@ Powered by RDEP
 
     {/* Instagram */}
     <button
-      onClick={() => handleSocialLink("https://www.instagram.com/grilldburgers")}
+      onClick={() => handleSocialLink("https://www.instagram.com/dominos_india")}
       className="flex flex-col items-center"
     >
       <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-500 flex items-center justify-center mb-1">
@@ -1916,7 +1915,7 @@ Powered by RDEP
 
     {/* Facebook */}
     <button
-      onClick={() => handleSocialLink("https://www.facebook.com/grilldburgers")}
+      onClick={() => handleSocialLink("https://www.facebook.com/DominosPizzaIndia")}
       className="flex flex-col items-center"
     >
       <div className="w-9 h-9 rounded-full bg-[#1877F2] flex items-center justify-center mb-1">
@@ -1928,10 +1927,10 @@ Powered by RDEP
 
     {/* Website */}
     <button
-      onClick={() => handleSocialLink("https://grilld.com.au")}
+      onClick={() => handleSocialLink("https://www.dominos.co.in")}
       className="flex flex-col items-center"
     >
-      <div className="w-9 h-9 rounded-full bg-[#E1251B] flex items-center justify-center mb-1">
+      <div className="w-9 h-9 rounded-full bg-[#E31837] flex items-center justify-center mb-1">
         <ExternalLink className="h-4 w-4 text-white" />
       </div>
       <span className="text-[11px] font-medium text-gray-700">Website</span>
@@ -1945,27 +1944,27 @@ Powered by RDEP
 
     <button
       onClick={() => setShowStoreLocation(!showStoreLocation)}
-      className="w-full flex items-center justify-center mb-2 hover:text-[#E1251B] transition-colors"
+      className="w-full flex items-center justify-center mb-2 hover:text-[#E31837] transition-colors"
     >
-      <MapPin className="h-3 w-3 mr-1 text-[#E1251B]" />
-      <span className="font-semibold text-[#E1251B]">
-        Grill'd Melbourne HQ {showStoreLocation ? "▲" : "▼"}
+      <MapPin className="h-3 w-3 mr-1 text-[#E31837]" />
+      <span className="font-semibold text-[#E31837]">
+        Domino's Brigade Road, Bengaluru {showStoreLocation ? "▲" : "▼"}
       </span>
     </button>
 
     {showStoreLocation && (
       <div className="space-y-0.5">
-        <p className="font-semibold text-gray-900">Grill'd Healthy Burgers</p>
-        <p>Level 2, 2 Russell Street</p>
-        <p>Melbourne VIC 3000</p>
-        <p>Australia</p>
+        <p className="font-semibold text-gray-900">Domino's Pizza</p>
+        <p>Brigade Road</p>
+        <p>Bengaluru, Karnataka 560001</p>
+        <p>India</p>
 
         <p className="mt-2 text-[10px]">
-          ABN: 31 093 142 806
+          GSTIN: 29ABCDE1234F1Z5
         </p>
 
-        <p className="mt-1 text-[#E1251B] font-semibold">
-          Manager on Duty: {currentReceipt.associate}
+        <p className="mt-1 text-[#E31837] font-semibold">
+          Store Manager: {currentReceipt.associate}
         </p>
       </div>
     )}
@@ -1975,7 +1974,7 @@ Powered by RDEP
 
   {/* Terms */}
   <button
-    className="w-full text-xs text-gray-500 hover:text-[#E1251B] h-6 font-medium"
+    className="w-full text-xs text-gray-500 hover:text-[#E31837] h-6 font-medium"
     onClick={() => setShowTerms(!showTerms)}
   >
     Terms & Conditions {showTerms ? "▲" : "▼"}
@@ -1984,42 +1983,43 @@ Powered by RDEP
   {showTerms && (
     <div className="text-[11px] text-gray-500 mt-2 space-y-1 px-2 font-medium">
 
-      <p>• Relish rewards points are subject to program terms and availability.</p>
-      <p>• Promotions and coupons may vary by location and time.</p>
-      <p>• Prices include applicable Australian GST.</p>
-      <p>• For support visit grilld.com.au/contact.</p>
+      <p>• Domino's offers and coupons are subject to availability and store participation.</p>
+      <p>• Offers may vary by location and delivery zone.</p>
+      <p>• Prices include applicable GST.</p>
+      <p>• For support visit www.dominos.co.in/support.</p>
 
     </div>
   )}
 
 
   {/* Powered by RDEP */}
-<div className="text-center mt-3 pt-3 border-t border-gray-100">
+  <div className="text-center mt-3 pt-3 border-t border-gray-100">
 
-  <div className="flex items-center justify-center space-x-1">
+    <div className="flex items-center justify-center space-x-1">
 
-    <span className="text-xs text-gray-400 font-medium">
-      Powered by
-    </span>
+      <span className="text-xs text-gray-400 font-medium">
+        Powered by
+      </span>
 
-    <a
-      href="https://www.rdep.io"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-flex items-center"
-    >
-      <Image
-        src="/images/design-mode/RDEP%20cropped.png"
-        alt="RDEP"
-        width={60}
-        height={16}
-        className="object-contain"
-      />
-    </a>
+      <a
+        href="https://www.rdep.io"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center"
+      >
+        <Image
+          src="/images/design-mode/RDEP%20cropped.png"
+          alt="RDEP"
+          width={60}
+          height={16}
+          className="object-contain"
+        />
+      </a>
+
+    </div>
 
   </div>
 
-</div>
 </div>
           <div id="height-marker" style={{ height: "1px" }} />
         </div>
@@ -2127,7 +2127,7 @@ Powered by RDEP
 
         <div className="flex items-center">
 
-          <div className="bg-[#E1251B] p-2 rounded-lg mr-3">
+          <div className="bg-[#E31837] p-2 rounded-lg mr-3">
             <History className="h-4 w-4 text-white" />
           </div>
 
@@ -2165,17 +2165,17 @@ Powered by RDEP
               setShowTransactionHistory(false)
               window.scrollTo({ top: 0, behavior: "smooth" })
             }}
-            className="w-full flex items-center p-3 bg-gray-50 border border-gray-200 rounded-xl hover:border-[#E1251B] transition"
+            className="w-full flex items-center p-3 bg-gray-50 border border-gray-200 rounded-xl hover:border-[#E31837] transition"
           >
 
             <div className="bg-white border border-gray-200 p-2 rounded-lg mr-3">
-              <FileText className="h-4 w-4 text-[#E1251B]" />
+              <FileText className="h-4 w-4 text-[#E31837]" />
             </div>
 
             <div className="flex-grow text-left">
 
               <div className="text-sm font-semibold text-gray-900">
-                Grill'd
+                Domino's
               </div>
 
               <div className="text-[11px] text-gray-500">
@@ -2184,8 +2184,8 @@ Powered by RDEP
 
             </div>
 
-            <div className="text-sm font-semibold text-[#E1251B]">
-              ${transaction.amount.toFixed(2)}
+            <div className="text-sm font-semibold text-[#E31837]">
+              ₹{transaction.amount.toFixed(2)}
             </div>
 
           </button>
